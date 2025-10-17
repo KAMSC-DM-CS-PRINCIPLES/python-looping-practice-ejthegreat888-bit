@@ -5,10 +5,10 @@ def reverse_string(text):
     # HINT: Start with reversed_text = ""
     # HINT: Return the reversed_text
     # HINT: NO SLICING ALLOWED - must use loops only
-    string = ""
+    reversed_text = ""
     for i in range(len(text)):
-        string += text[len(text) - i]
-    return string
+        reversed_text += text[len(text) - i]
+    return reversed_text
     pass
 
 if __name__ == "__main__":
