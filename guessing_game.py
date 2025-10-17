@@ -15,8 +15,9 @@ def guessing_game():
         else:
             print("Too low! Try again.")
 
+
     pass
 
 if __name__ == "__main__":
     # create guessing game below this
-    pass
+    guessing_game()
