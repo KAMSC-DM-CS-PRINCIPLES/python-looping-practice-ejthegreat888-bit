@@ -8,7 +8,6 @@ def multiplication_table(n):
         for j in range(1, n + 1):
             result = i * j
             print(f"{i} X {j} = {result}")
-    pass
 
 if __name__ == "__main__":
     # create multiplication table below this
