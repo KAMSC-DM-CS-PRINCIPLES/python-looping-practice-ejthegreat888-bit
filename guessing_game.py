@@ -5,15 +5,17 @@ def guessing_game():
     # HINT: Use input("Enter your guess: ") for user input
     # HINT: Print "Too low! Try again." for low guesses
     # HINT: Print "Too high! Try again." for high guesses
-    while True:
-        inp = input("Enter your guess: ")
-        if int(inp) == 15:
-            print ("Congratulations! You guessed it!")
+    target = 15;
+    answer = 0
+    while answer != target:
+        answer = int(input("Enter your guess: "))
+        if answer == target:
             break
-        elif int(inp) > 15:
+        elif answer > target:
             print("Too high! Try again.")
         else:
             print("Too low! Try again.")
+    return "Congratulations! You guessed it!"
 
 
     pass

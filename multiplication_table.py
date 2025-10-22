@@ -4,11 +4,12 @@ def multiplication_table(n):
     # HINT: Print format should be f"{i} x {j} = {result}"
     # HINT: Calculate result as i * j (not i * j + 1)
     # HINT: Use print() to display each multiplication
-    for i in range(n, n + 1):
-        for j in range(n, n + 1):
-            print(str(i) + " x " + str(j) + " = " + str(i*j))
+    for i in range(1, n + 1):
+        for j in range(1, n + 1):
+            result = i * j
+            print(f"{i} X {j} = {result}")
     pass
 
 if __name__ == "__main__":
     # create multiplication table below this
-    pass
+    print(multiplication_table(10))
